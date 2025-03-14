@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.button {
+    all: unset;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #1f1f1f;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: #d0d0d0;
+}
+
+.image {
+    width: 30px;
+    user-select: none;
+}
