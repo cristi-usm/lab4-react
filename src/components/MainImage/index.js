@@ -1,0 +1,1 @@
+export { MainImage } from "./MainImage";
