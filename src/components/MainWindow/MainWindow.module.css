@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main .img{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+.gallery_photo {
+    width: 100%;
+    height: auto;
+}
+.gallery_photo .img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+.gallery_photo.border .img {
+    border: 3px solid red;
+}
