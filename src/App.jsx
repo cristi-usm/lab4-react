@@ -1,5 +1,7 @@
+import GaleriePisici from "./GaleriePisici";
+
 function App() {
-    return <></>;
+  return <GaleriePisici />;
 }
 
 export default App;
