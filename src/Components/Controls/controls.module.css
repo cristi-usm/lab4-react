@@ -1,0 +1,29 @@
+.controls {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .controls__btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: black;
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .controls__btn img {
+    width: 22px;
+    height: 22px;
+    filter: invert(1); 
+  }
+  
+  .controls__btn:hover {
+    transform: scale(1.05);
+  }
