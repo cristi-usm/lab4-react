@@ -1,5 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fdf6ee;
+  font-family: 'DM Sans', sans-serif;
+  color: #2c2c2c;
+  min-height: 100vh;
 }

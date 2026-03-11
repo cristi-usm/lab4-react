@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+}
+
+.thumbWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.thumbWrap:hover {
+  transform: translateY(-3px);
+}
+
+.thumb {
+  width: 110px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.thumbWrap.active .thumb {
+  border-color: #c9a87c;
+  box-shadow: 0 0 0 3px rgba(201, 168, 124, 0.35);
+}
+
+.name {
+  font-size: 0.78rem;
+  color: #7a5230;
+  font-weight: 500;
+}
